@@ -1,0 +1,209 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEKhash	.\perfect_hash.py	/^    def DEKhash(self, x, s):$/;"	m	class:Hash1
+Format	.\perfect_hash.py	/^class Format(object):$/;"	c
+G	.\examples\C++\states-tmpl.cc	/^static int G[] = { $G };$/;"	v	file:
+G	.\examples\C-1\states-code.c	/^static int G[] = { 0, 66, 0, 30, 0, 0, 0, 46, 0, 40, 15, 50, 10, 24, 28, $/;"	v	file:
+G	.\examples\C-1\states-tmpl.c	/^static int G[] = { $G };$/;"	v	file:
+G	.\examples\C-2\keys.code.h	/^int G[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 322, 0, $/;"	v
+G	.\examples\C-2\keys.tmpl.h	/^int G[] = { $G };$/;"	v
+G	.\keys.code.h	/^int G[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 322, 0, $/;"	v
+Graph	.\graph\py2dot.py	/^from perfect_hash import Graph$/;"	i
+Graph	.\perfect_hash.py	/^class Graph(object):$/;"	c
+Hash	.\perfect_hash.py	/^        Hash = Hash1$/;"	v
+Hash	.\perfect_hash.py	/^        Hash = Hash2$/;"	v
+Hash1	.\perfect_hash.py	/^class Hash1(object):$/;"	c
+Hash2	.\perfect_hash.py	/^class Hash2(object):$/;"	c
+K	.\examples\C-1\states-code.c	/^static char *K[] = { "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", $/;"	v	file:
+K	.\examples\C-1\states-tmpl.c	/^static char *K[] = { $K };$/;"	v	file:
+K	.\examples\C-2\keys.code.h	/^char *K[] = { "deep", "that", "with", "this", "they", "from", "will", $/;"	v
+K	.\examples\C-2\keys.tmpl.h	/^char *K[] = { $K };$/;"	v
+K	.\keys.code.h	/^char *K[] = { "deep", "that", "with", "this", "they", "from", "will", $/;"	v
+N	.\examples\C-2\mk_rnd_keys.py	/^N = int(sys.argv[1])$/;"	v
+NG	.\examples\C-2\keys.code.h	3;"	d
+NG	.\examples\C-2\keys.tmpl.h	3;"	d
+NG	.\keys.code.h	3;"	d
+NK	.\examples\C-2\keys.code.h	2;"	d
+NK	.\examples\C-2\keys.tmpl.h	2;"	d
+NK	.\keys.code.h	2;"	d
+NS	.\examples\C-2\keys.code.h	4;"	d
+NS	.\examples\C-2\keys.tmpl.h	4;"	d
+NS	.\keys.code.h	4;"	d
+NewGraph	.\graph\py2dot.py	/^class NewGraph(Graph):$/;"	c
+OptionParser	.\graph\py2dot.py	/^    from optparse import OptionParser$/;"	i
+OptionParser	.\perfect_hash.py	/^    from optparse import OptionParser$/;"	i
+PerfHash	.\perfect_hash.py	/^class PerfHash(object):$/;"	c
+State	.\examples\C++\states-code.hh	/^class State$/;"	c
+State	.\examples\C++\states-tmpl.cc	/^State::State (const string abbr)$/;"	f	class:State
+StringIO	.\perfect_hash.py	/^    from cStringIO import StringIO$/;"	i
+StringIO	.\perfect_hash.py	/^    from io import StringIO$/;"	i
+T1	.\examples\C++\states-tmpl.cc	/^static int T1[] = { $S1 };$/;"	v	file:
+T1	.\examples\C-1\states-code.c	/^static int T1[] = { 28, 38 };$/;"	v	file:
+T1	.\examples\C-1\states-tmpl.c	/^static int T1[] = { $S1 };$/;"	v	file:
+T1	.\examples\C-2\keys.code.h	/^int T1[] = { 203, 398, 326, 50 };$/;"	v
+T1	.\examples\C-2\keys.tmpl.h	/^int T1[] = { $S1 };$/;"	v
+T1	.\keys.code.h	/^int T1[] = { 203, 398, 326, 50 };$/;"	v
+T2	.\examples\C++\states-tmpl.cc	/^static int T2[] = { $S2 };$/;"	v	file:
+T2	.\examples\C-1\states-code.c	/^static int T2[] = { 19, 51 };$/;"	v	file:
+T2	.\examples\C-1\states-tmpl.c	/^static int T2[] = { $S2 };$/;"	v	file:
+T2	.\examples\C-2\keys.code.h	/^int T2[] = { 4, 139, 330, 154 };$/;"	v
+T2	.\examples\C-2\keys.tmpl.h	/^int T2[] = { $S2 };$/;"	v
+T2	.\keys.code.h	/^int T2[] = { 4, 139, 330, 154 };$/;"	v
+__call__	.\perfect_hash.py	/^    def __call__(self, data, quote=False):$/;"	m	class:Format	file:
+__call__	.\perfect_hash.py	/^    def __call__(self, key):$/;"	m	class:Hash1	file:
+__call__	.\perfect_hash.py	/^    def __call__(self, key):$/;"	m	class:Hash2	file:
+__getitem__	.\perfect_hash.py	/^    def __getitem__(self, key):$/;"	m	class:PerfHash	file:
+__init__	.\perfect_hash.py	/^    def __init__(self, N):$/;"	m	class:Graph
+__init__	.\perfect_hash.py	/^    def __init__(self, N):$/;"	m	class:Hash1
+__init__	.\perfect_hash.py	/^    def __init__(self, N):$/;"	m	class:Hash2
+__init__	.\perfect_hash.py	/^    def __init__(self, dic):$/;"	m	class:PerfHash
+__init__	.\perfect_hash.py	/^    def __init__(self, options):$/;"	m	class:Format
+__setitem__	.\perfect_hash.py	/^    def __setitem__(self, newkey, newobj):$/;"	m	class:PerfHash	file:
+__version__	.\perfect_hash.py	/^__version__ = '0.2.1'$/;"	v
+abbr	.\examples\C++\states-tmpl.cc	/^    char *abbr;$/;"	m	struct:__anon1	file:
+abbr	.\examples\C-1\main.c	/^    char *abbr;$/;"	m	struct:__anon2	file:
+absolute_import	.\graph\py2dot.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+absolute_import	.\perfect_hash.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+action	.\perfect_hash.py	/^                      action  = "store",$/;"	v
+action	.\perfect_hash.py	/^                      action  = "store_true",$/;"	v
+ascii_letters	.\examples\C-2\mk_rnd_keys.py	/^from string import ascii_letters, digits$/;"	i
+assign_vertex_values	.\perfect_hash.py	/^    def assign_vertex_values(self):$/;"	m	class:Graph
+author	.\setup.py	/^    author = "Ilan Schnell",$/;"	v
+author_email	.\setup.py	/^    author_email = "ilanschnell@gmail.com",$/;"	v
+builtin_template	.\perfect_hash.py	/^def builtin_template(Hash):$/;"	f
+check	.\graph\py2dot.py	/^    def check(self):$/;"	m	class:NewGraph
+choice	.\examples\C-2\mk_rnd_keys.py	/^from random import choice, randint$/;"	i
+classifiers	.\setup.py	/^    classifiers = [$/;"	v
+code	.\perfect_hash.py	/^    code = generate_code(keys_hashes, template, Hash, options)$/;"	v
+connect	.\perfect_hash.py	/^    def connect(self, vertex1, vertex2, edge_value):$/;"	m	class:Graph
+data	.\setup.py	/^data = open('perfect_hash.py').read()$/;"	v
+default	.\perfect_hash.py	/^                      default = "#",$/;"	v
+default	.\perfect_hash.py	/^                      default = ", ",$/;"	v
+default	.\perfect_hash.py	/^                      default = ",",$/;"	v
+default	.\perfect_hash.py	/^                      default = 0,$/;"	v
+default	.\perfect_hash.py	/^                      default = 1,$/;"	v
+default	.\perfect_hash.py	/^                      default = 2,$/;"	v
+default	.\perfect_hash.py	/^                      default = 4,$/;"	v
+default	.\perfect_hash.py	/^                      default = 5,$/;"	v
+default	.\perfect_hash.py	/^                      default = 76,$/;"	v
+defaultdict	.\graph\py2dot.py	/^from collections import defaultdict$/;"	i
+defaultdict	.\perfect_hash.py	/^from collections import defaultdict$/;"	i
+description	.\perfect_hash.py	/^                          description = description,$/;"	v
+description	.\setup.py	/^    description = "creating perfect minimal hash function",$/;"	v
+digits	.\examples\C-2\mk_rnd_keys.py	/^from string import ascii_letters, digits$/;"	i
+division	.\graph\py2dot.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+division	.\perfect_hash.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+doctest	.\perfect_hash.py	/^    import doctest$/;"	i
+enumerate_trees	.\graph\py2dot.py	/^    def enumerate_trees(self):$/;"	m	class:NewGraph
+flush_dot	.\perfect_hash.py	/^    def flush_dot():$/;"	f	function:self_test
+g	.\graph\py2dot.py	/^    g = NewGraph(len(G))$/;"	v
+generate_code	.\perfect_hash.py	/^def generate_code(keys_hashes, template, Hash, options):$/;"	f
+generate_hash	.\perfect_hash.py	/^def generate_hash(kdic, Hash):$/;"	f
+has_key	.\examples\C-1\states-code.c	/^int has_key(const char *abbr)$/;"	f
+has_key	.\examples\C-1\states-tmpl.c	/^int has_key(const char *abbr)$/;"	f
+has_key	.\examples\C-2\main.c	/^bool has_key(char *k)$/;"	f
+has_key	.\main.c	/^bool has_key(char *k)$/;"	f
+has_key	.\perfect_hash.py	/^    def has_key(self, key):$/;"	m	class:PerfHash
+hash	.\examples\C-2\main.c	/^int hash(char *k)$/;"	f
+hash	.\main.c	/^int hash(char *k)$/;"	f
+hash_g	.\examples\C++\states-tmpl.cc	/^static int hash_g (const char *key, const int *T)$/;"	f	file:
+hash_g	.\examples\C-1\states-code.c	/^hash_g(const char *key, const int *T)$/;"	f	file:
+hash_g	.\examples\C-1\states-tmpl.c	/^hash_g(const char *key, const int *T)$/;"	f	file:
+hash_g	.\examples\C-2\main.c	/^int hash_g(char *s, int *T)$/;"	f
+hash_g	.\main.c	/^int hash_g(char *s, int *T)$/;"	f
+hashval	.\perfect_hash.py	/^    def hashval(self, key):$/;"	m	class:PerfHash
+help	.\perfect_hash.py	/^                      help    = "Delimiter for list items used in output, "$/;"	v
+help	.\perfect_hash.py	/^                      help    = "Execute the generated code within "$/;"	v
+help	.\perfect_hash.py	/^                      help    = "Hash function type INT (see documentation), "$/;"	v
+help	.\perfect_hash.py	/^                      help    = "Make INT spaces at the beginning of a "$/;"	v
+help	.\perfect_hash.py	/^                      help    = "Maximal width of generated list when "$/;"	v
+help	.\perfect_hash.py	/^                      help    = "Perform self test")$/;"	v
+help	.\perfect_hash.py	/^                      help    = "STR is the character by which the columns "$/;"	v
+help	.\perfect_hash.py	/^                      help    = "STR is the character, or sequence of "$/;"	v
+help	.\perfect_hash.py	/^                      help    = "Specifies the column INT in the input "$/;"	v
+help	.\perfect_hash.py	/^                      help    = "Specifies the number of trails before "$/;"	v
+help	.\perfect_hash.py	/^                      help    = "Specify output FILE explicitly. "$/;"	v
+help	.\perfect_hash.py	/^                      help    = "verbosity")$/;"	v
+is_py2	.\perfect_hash.py	/^is_py2 = bool(sys.version_info[0] == 2)$/;"	v
+join	.\perfect_hash.py	/^from os.path import join$/;"	i
+key	.\examples\C-2\mk_rnd_keys.py	/^def key():$/;"	f
+keyDict	.\perfect_hash.py	/^def keyDict(keys_hashes):$/;"	f
+keys_file	.\perfect_hash.py	/^    keys_file = args[0]$/;"	v
+keys_hashes	.\perfect_hash.py	/^    keys_hashes = read_table(keys_file, options)$/;"	v
+kwds	.\setup.py	/^kwds = {}$/;"	v
+license	.\setup.py	/^    license = "BSD",$/;"	v
+line	.\examples\C++\mk_header.py	/^    line = line.strip()$/;"	v
+line	.\examples\C-1\mk_header.py	/^    line = line.strip()$/;"	v
+main	.\examples\C++\main.cc	/^int main (int argc, char *argv[])$/;"	f
+main	.\examples\C-1\main.c	/^int main (int argc, char *argv[])$/;"	f
+main	.\examples\C-2\main.c	/^int main()$/;"	f
+main	.\main.c	/^int main()$/;"	f
+main	.\perfect_hash.py	/^def main():$/;"	f
+metavar	.\perfect_hash.py	/^                      metavar = "FILE")$/;"	v
+metavar	.\perfect_hash.py	/^                      metavar = "INT")$/;"	v
+metavar	.\perfect_hash.py	/^                      metavar = "STR")$/;"	v
+mkdtemp	.\perfect_hash.py	/^from tempfile import mkdtemp$/;"	i
+nam	.\examples\C++\states-code.hh	/^  string nam;$/;"	m	class:State
+name	.\examples\C++\states-code.hh	/^  string name () const { return nam; };$/;"	f	class:State
+name	.\examples\C++\states-tmpl.cc	/^    char *name;$/;"	m	struct:__anon1	file:
+name	.\examples\C-1\main.c	/^    char *name;$/;"	m	struct:__anon2	file:
+name	.\setup.py	/^    name = "perfect-hash",$/;"	v
+outname	.\perfect_hash.py	/^            outname = 'std'$/;"	v
+outname	.\perfect_hash.py	/^            outname = tmpl_file.replace('tmpl', 'code')$/;"	v
+outname	.\perfect_hash.py	/^        outname = options.output$/;"	v
+outstream	.\perfect_hash.py	/^            outstream = open(outname, 'w')$/;"	v
+outstream	.\perfect_hash.py	/^        outstream = None$/;"	v
+outstream	.\perfect_hash.py	/^        outstream = sys.stdout$/;"	v
+parser	.\graph\py2dot.py	/^    parser = OptionParser(usage = usage,$/;"	v
+parser	.\perfect_hash.py	/^    parser = OptionParser(usage = usage,$/;"	v
+pat	.\setup.py	/^pat = re.compile(r'__version__\\s*=\\s*(\\S+)', re.M)$/;"	v
+perfect_hash	.\examples\C++\states-tmpl.cc	/^static int perfect_hash (const char *key)$/;"	f	file:
+perfect_hash	.\examples\C-1\states-code.c	/^perfect_hash(const char *key)$/;"	f	file:
+perfect_hash	.\examples\C-1\states-tmpl.c	/^perfect_hash(const char *key)$/;"	f	file:
+pop	.\examples\C++\states-code.hh	/^  int pop;$/;"	m	class:State
+pop	.\examples\C++\states-tmpl.cc	/^    int pop;$/;"	m	struct:__anon1	file:
+pop	.\examples\C-1\main.c	/^    int pop;$/;"	m	struct:__anon2	file:
+population	.\examples\C++\states-code.hh	/^  int population () const { return pop; };$/;"	f	class:State
+print_function	.\graph\py2dot.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+print_function	.\perfect_hash.py	/^from __future__ import absolute_import, division, print_function$/;"	i
+print_keys_hashes	.\perfect_hash.py	/^def print_keys_hashes(keys_hashes):$/;"	f
+prog	.\perfect_hash.py	/^                          prog = sys.argv[0],$/;"	v
+py_modules	.\setup.py	/^    py_modules = ["perfect_hash"],$/;"	v
+randint	.\examples\C-2\mk_rnd_keys.py	/^from random import choice, randint$/;"	i
+random	.\perfect_hash.py	/^import random$/;"	i
+random_word	.\perfect_hash.py	/^    def random_word():$/;"	f	function:self_test
+re	.\setup.py	/^import re$/;"	i
+read_table	.\perfect_hash.py	/^def read_table(filename, options):$/;"	f
+read_template	.\perfect_hash.py	/^def read_template(filename):$/;"	f
+rmtree	.\perfect_hash.py	/^from shutil import rmtree$/;"	i
+row	.\examples\C++\mk_header.py	/^    row = tuple(entry.strip() for entry in line.split('|'))$/;"	v
+row	.\examples\C-1\mk_header.py	/^    row = tuple(entry.strip() for entry in line.split('|'))$/;"	v
+run	.\perfect_hash.py	/^    def run(K, Hash):$/;"	f	function:self_test
+run_code	.\perfect_hash.py	/^def run_code(code):$/;"	f
+scripts	.\setup.py	/^    scripts = ['perfect-hash'],$/;"	v
+self_test	.\perfect_hash.py	/^def self_test(options):$/;"	f
+set_tree_sizes	.\graph\py2dot.py	/^    def set_tree_sizes(self, verbose=False):$/;"	m	class:NewGraph
+setup	.\setup.py	/^from distutils.core import setup$/;"	i
+states	.\examples\C++\states-tmpl.cc	/^} states[$NK] = {$/;"	v	typeref:struct:__anon1	file:
+states	.\examples\C-1\main.c	/^} states[] = {$/;"	v	typeref:struct:__anon2
+string	.\perfect_hash.py	/^import string$/;"	i
+subprocess	.\perfect_hash.py	/^import subprocess$/;"	i
+sys	.\examples\C-2\mk_rnd_keys.py	/^import sys$/;"	i
+sys	.\graph\py2dot.py	/^    import sys$/;"	i
+sys	.\graph\py2dot.py	/^import sys$/;"	i
+sys	.\perfect_hash.py	/^import sys$/;"	i
+template	.\perfect_hash.py	/^    template = (read_template(tmpl_file) if tmpl_file else$/;"	v
+tmpl_file	.\perfect_hash.py	/^    tmpl_file = args[1] if len(args) == 2 else None$/;"	v
+trails	.\perfect_hash.py	/^        trails = options.trails$/;"	v
+trails	.\perfect_hash.py	/^trails = 5$/;"	v
+type	.\perfect_hash.py	/^                      type    = "int",$/;"	v
+url	.\setup.py	/^    url = "https:\/\/github.com\/ilanschnell\/perfect-hash",$/;"	v
+usage	.\graph\py2dot.py	/^    usage = "usage: %prog [options] [PYCODE]"$/;"	v
+verbose	.\perfect_hash.py	/^    verbose = options.verbose$/;"	v
+verbose	.\perfect_hash.py	/^verbose = False$/;"	v
+version	.\perfect_hash.py	/^                          version = "%prog: " + __version__)$/;"	v
+write	.\graph\py2dot.py	/^    def write(self, fo, labels=False, minsize=1):$/;"	m	class:NewGraph
